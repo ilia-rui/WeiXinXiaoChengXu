@@ -1,0 +1,52 @@
+/**index.wxss**/
+page {
+  height: 100vh;
+  overflow: hidden;  /* 禁止页面滚动 */
+}
+
+/* 页面容器 */
+.container {
+  width: 100vw;
+  height: 100vh;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  overflow: hidden;  /* 禁止容器滚动 */
+}
+
+/* 背景图片 */
+.bg-image {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  z-index: -1;
+}
+
+/* 按钮容器 */
+.button-container {
+  position: absolute;
+  bottom: 10%;  /* 向下移动，从15%改为10% */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 5px;  /* 将间距从30px减小到5px */
+  z-index: 1;  /* 确保按钮在背景之上 */
+}
+
+/* 导航按钮 */
+.nav-button {
+  width: 300rpx;
+  display: block;
+  padding: 0;
+  margin: 0;
+  line-height: 0;
+  font-size: 0;
+  transition: all 0.3s ease;
+}
+
+.nav-button:active {
+  transform: scale(0.95);
+}

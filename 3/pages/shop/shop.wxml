@@ -1,0 +1,25 @@
+<view class="container">
+  <!-- 顶部分类 -->
+  <view class="category-grid">
+    <block wx:for="{{categories}}" wx:key="name">
+      <view class="category-item">
+        <image class="category-icon" src="{{item.icon}}" mode="aspectFit"></image>
+        <text class="category-name">{{item.name}}</text>
+      </view>
+    </block>
+  </view>
+
+  
+
+  <!-- 图片轮播 -->
+  <view class="promo-section">
+    <swiper class="promo-swiper" indicator-dots="true" autoplay="true" interval="3000" duration="500" circular="true">
+      <block wx:for="{{promoImages}}" wx:key="*this">
+        <swiper-item>
+          <image src="{{item}}" class="swiper-image" mode="aspectFill"/>
+        </swiper-item>
+      </block>
+    </swiper>
+  </view>
+
+</view> 

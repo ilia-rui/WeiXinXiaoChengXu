@@ -1,0 +1,8 @@
+<!--index.wxml-->
+<view class="container">
+  <image class="bg-image" src="/image/1-背景.png" mode="scaleToFill"></image>
+  <view class="button-container">
+    <image class="nav-button" src="/image/1-商城.png" bindtap="goToShop" mode="widthFix"></image>
+    <image class="nav-button" src="/image/1-ai.png" bindtap="goToAI" mode="widthFix"></image>
+  </view>
+</view>
