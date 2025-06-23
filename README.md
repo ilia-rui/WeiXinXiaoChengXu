@@ -22,7 +22,8 @@
 4. 查看结果 → 可保存或导出对话
 
 ## 项目链接
-- 微信小程序预览地址：[点击访问](https://example.miniapp.com)
+- 微信小程序预览地址：![oma0H7mGu-LvmPWn_NhWt7xdaBp8](https://github.com/user-attachments/assets/481e34f5-6f21-4240-99c9-6f076995423a)
+
 - GitHub 项目仓库：https://github.com/ilia-rui/WeiXinXiaoChengXu
 
 ## 智能体设定摘要
